@@ -24,7 +24,7 @@ Chat是一款集上传下载、多人聊天的一款桌面应用。
 - ✨ 支持图片、音乐及视频下载
 
 ## 🖥 应用界面
-   ![主界面](https://github.com/SpiderMan-Park/chat/blob/master/src/assets/audio.png)
+   ![主界面](https://github.com/SpiderMan-Park/chat/blob/master/screen/demo.mp4)
     
 ## Project setup
 ```
