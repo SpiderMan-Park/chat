@@ -1,5 +1,13 @@
 # chat
 
+## Vue+Electron+Go 实现的多人聊天室桌面应用
+
+<video src="https://lusun.com/v/nUKeLvZXed6"></video>
+
+技术栈：
+    前端：Vue全家桶、Electron、Nodejs
+    后端：Go、Redis、原生Socket
+    
 ## Project setup
 ```
 npm install
