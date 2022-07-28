@@ -2,10 +2,30 @@
 
 ## Vue+Electron+Go 实现的多人聊天室桌面应用
 
-技术栈：
-    前端：Vue全家桶、Electron、Nodejs
-    
-    后端：Go、Redis、原生Socket
+Chat是一款集上传下载、多人聊天的一款桌面应用。
+
+## ✨ 功能亮点
+- 🕹 简洁的聊天界面
+- 🕹多人聊天
+- 🔔 传输任务完成通知提醒
+- ✨ 支持拖拽文件上传
+- ✨ 支持图片、音乐及视频下载
+
+## 🖥 应用界面
+#### 主界面
+   ![主界面](screen/disk.png)
+
+## 🛠 使用的技术栈
+前端：
+- [Electron](https://electronjs.org/)
+- [Nodejs](https://nodejs.org/)
+- [electron-builder](https://www.electron.build/) 
+- [Vue](https://vuejs.org/)
+- [Element](https://element.eleme.io)
+
+服务器：
+- [Go](https://golang.google.cn/)
+- [Redis](https://redis.io/)
     
 ## Project setup
 ```
