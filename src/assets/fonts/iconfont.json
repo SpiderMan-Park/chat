@@ -1,0 +1,16 @@
+{
+  "id": "3512505",
+  "name": "chat",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "795553",
+      "name": "上传图片",
+      "font_class": "ai-up-img",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    }
+  ]
+}
