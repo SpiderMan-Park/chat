@@ -36,7 +36,7 @@ Chat是一款集上传下载、多人聊天的一款桌面应用。
 
 ### 克隆代码
 ```bash
-git clone https://github.com/zjinh/CloudDisk.git
+git clone https://github.com/SpiderMan-Park/chat.git
 ```
 
 ### 安装依赖
