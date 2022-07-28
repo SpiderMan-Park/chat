@@ -32,25 +32,33 @@ Chat是一款集上传下载、多人聊天的一款桌面应用。
 #### 主界面
   ![主界面](src/assets/main.png) 
   
-## Project setup
+## ⌨️ 本地开发
+
+### 克隆代码
+```bash
+git clone https://github.com/zjinh/CloudDisk.git
 ```
+
+### 安装依赖
+```bash
 npm install
 ```
+### 淘宝的npm源
+```bash
+npm config set registry 'https://registry.npm.taobao.org'
+npm config set ELECTRON_MIRROR='https://npm.taobao.org/mirrors/electron/'
+```
+或者使用[Yarn](https://yarnpkg.com/)安装依赖
 
-### Compiles and hot-reloads for development
+### 运行项目
+```bash
+npm run electron:server
 ```
-npm run electron:serve
-```
-
-### Compiles and minifies for production
-```
+### 打包项目
+```bash
 npm run electron:build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
+项目不包含服务端:smile::smile:
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
