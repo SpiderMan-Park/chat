@@ -38,7 +38,7 @@ Chat是一款集上传下载、多人聊天的一款桌面应用。
 ```bash
 git clone https://github.com/SpiderMan-Park/chat.git
 ```
-
+项目运行的Node版本是v14.18.0
 ### 安装依赖
 ```bash
 npm install
