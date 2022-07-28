@@ -59,6 +59,3 @@ npm run electron:server
 npm run electron:build
 ```
 项目不包含服务端:smile::smile:
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
