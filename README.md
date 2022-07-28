@@ -29,7 +29,7 @@ Chat是一款集上传下载、多人聊天的一款桌面应用。
 #### 注册
   ![注册](src/assets/register.png)
 #### 主界面
-  ![主界面](screen/assets/main.png) 
+  ![主界面](src/assets/main.png) 
   
 ## Project setup
 ```
