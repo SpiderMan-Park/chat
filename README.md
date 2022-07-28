@@ -1,4 +1,4 @@
-# chat
+# Chat
 
 ## Vue+Electron+Go 实现的多人聊天室桌面应用
 
