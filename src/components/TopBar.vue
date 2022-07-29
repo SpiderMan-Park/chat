@@ -34,8 +34,9 @@ export default {
       this.$electron.ipcRenderer.send("window-close");
     },
     move(canMove) {
-      this.$electron.ipcRenderer.send("windowDrag", canMove);
-      if (win.getSize()[0] == 500) {
+      var size = win.getContentSize();
+      this.$electron.ipcRenderer.send("windowDrag", canMove, size);
+      if (win.getContentSize()[0] == 500) {
         return false;
       }
 

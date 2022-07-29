@@ -51,7 +51,7 @@ async function createWindow() {
   var winStartPosition = { x: 0, y: 0 };
   var mouseStartPosition = { x: 0, y: 0 };
   var movingInterval = null;
-  ipcMain.on("windowDrag", (events, canMoving) => {
+  ipcMain.on("windowDrag", (events, canMoving, size) => {
     if (canMoving) {
       // 读取原位置
       var winPosition = win.getPosition();
@@ -66,7 +66,8 @@ async function createWindow() {
         var cursorPosition = screen.getCursorScreenPoint();
         var x = winStartPosition.x + cursorPosition.x - mouseStartPosition.x;
         var y = winStartPosition.y + cursorPosition.y - mouseStartPosition.y;
-        win.setPosition(x, y, true);
+        win.setPosition(x, y);
+        win.setContentSize(size[0], size[1]);
       }, 10);
     } else {
       clearInterval(movingInterval);

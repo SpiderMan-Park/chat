@@ -30,8 +30,8 @@ prodConfig = JSON.parse(prodConfig);
 console.log(prodConfig);
 var devConfig = {
   PORT: 8666,
-  // HOST: "192.168.1.16",
-  HOST: "101.34.42.124",
+  HOST: "192.168.1.16",
+  // HOST: "101.34.42.124",
 };
 if (process.env.NODE_ENV == "production") {
   Vue.prototype.$systemConfig = prodConfig;
